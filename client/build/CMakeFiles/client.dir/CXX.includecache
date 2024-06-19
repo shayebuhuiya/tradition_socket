@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiao/code/tcp_test/client/main.cpp
+iostream
+-
+arpa/inet.h
+/home/xiao/code/tcp_test/client/arpa/inet.h
+sys/socket.h
+/home/xiao/code/tcp_test/client/sys/socket.h
+unistd.h
+-
+string
+-
+string.h
+-
+functional
+-
+
